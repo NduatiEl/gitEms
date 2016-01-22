@@ -1,0 +1,110 @@
+#page-content-wrapper0,.explanation {
+    background: #0174DF;
+    padding: 30px;
+    height: 20%;
+   }
+#page-content-wrapper1,.explanation{
+    background: cyan;
+    height: 80%;
+    width: inherit;
+    color: darkblue;
+    padding: 40px;
+    text-transform: uppercase;
+}
+#sidebar-wrapper {
+    background-color:  darkcyan;
+}
+#menu-toggle{
+    color: black;
+}
+section,#center{
+    color: blue;
+    padding: 30px;
+    width: 40%;
+    background: rgba(40, 208, 255, 0.86) center;
+    float: right;
+
+}
+#left{
+    width:30%;
+    height: inherit;
+    float: left;
+    background-color: red;
+    color: inherit;
+    padding: 30px;
+}
+#right{
+    width: 30%;
+    padding: 30px;
+    height: inherit;
+    float: right;
+    background-color: red;
+    color: inherit;
+}
+#footer{
+    height: 30px;
+    width: inherit;
+    color: #449d44;
+    background: rgba(36, 34, 255, 0.25);
+    text-align: center;
+    float: none;
+}
+#empty{
+    background: darkblue;
+    height: 10px;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: #daddd7;
+}
+h6{
+    text-transform: uppercase;
+    color: darkcyan;
+    text-align: center;
+}
+#form{
+    color: blue;
+    background: #f0f4ff;
+    width: 86%;
+    height: inherit;
+    float: right;
+    padding: 40px;
+}
+.container {
+    max-width: 400px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.container div {
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    display: none;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    color: red;
+    background: cyan;
+}
+
+button {
+    position: absolute;
+}
+
+.next {
+    right: 5px;
+}
+
+.prev {
+    left: 5px;
+}
+
