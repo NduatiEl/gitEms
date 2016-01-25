@@ -1,7 +1,4 @@
-<?php
-session_start();
 
-?>
 <!DOCTYPE html>
 <html >
 <head>
@@ -9,7 +6,11 @@ session_start();
     <title>login</title>
 
 
-<?php   require 'css.html'; ?>
+<?php
+require 'css.html';
+require 'core/database/connect.php';
+include 'core/init_db.php';
+?>
 
 
 
@@ -24,8 +25,8 @@ session_start();
 
     <form action="logining.php" method="post">
 
-        <label>username</label><br>
-        <input  placeholder='User Name' type='text'name="username" required><br>
+        <label>email</label><br>
+        <input  placeholder='email' type='text'name="email" required><br>
         <label>password</label><br>
         <input  placeholder='Password' type='password' name="password" required><br>
         <button name="submit">login </button>

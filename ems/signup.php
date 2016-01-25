@@ -1,3 +1,6 @@
+<?php
+require 'core/database/connect.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +32,7 @@
 <p>grace labs consolidated</p>
 <section>
     <h1>member registration</h1>
-    <form action="" method="post">
+    <form action="core/functions/users.php" method="post">
         <label>username</label><br>
         <input placeholder='surname' type='text'name="surname" required><br>
         <label>username</label><br>

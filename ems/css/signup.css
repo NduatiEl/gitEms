@@ -5,7 +5,7 @@
 
 body {
     font: 16px Helvetica;
-    background:#d8d7dd;
+    background-image: image(url 'ems/images/a.jpg');
     width: 100%;
     height: 100%;
 }
@@ -32,12 +32,12 @@ p{
 
 section {
     width: 50%;
-    background: darkcyan;
+    background: #26dd12;
     padding: 0 30px 30px 30px;
     margin: 60px auto;
     text-align: center;
     border-radius: 40px;
-    color: green;
+    color: black;
 }
 h5{
     color: rgba(78, 255, 27, 0.86);

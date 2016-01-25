@@ -1,11 +1,11 @@
 #page-content-wrapper0,.explanation {
     background: #0174DF;
     padding: 30px;
-    height: 20%;
+    height: 150px;
    }
 #page-content-wrapper1,.explanation{
     background: cyan;
-    height: 80%;
+    height: 100%;
     width: inherit;
     color: darkblue;
     padding: 40px;
@@ -16,6 +16,12 @@
 }
 #menu-toggle{
     color: black;
+}
+#prof{
+    height: 20px;
+    width: inherit;
+    color: lawngreen;
+    background: inherit;
 }
 section,#center{
     color: blue;
@@ -66,11 +72,12 @@ h6{
 }
 #form{
     color: blue;
-    background: #f0f4ff;
-    width: 86%;
+    background: inherit;
+    width: 90%;
     height: inherit;
     float: right;
-    padding: 40px;
+    padding: 30px;
+    border-radius: 10%;
 }
 .container {
     max-width: 400px;
@@ -97,14 +104,9 @@ footer{
 }
 
 button {
-    position: absolute;
-}
+    position: absolute;}
 
-.next {
-    right: 5px;
+input{
+    height: 30px;
+    background: red;
 }
-
-.prev {
-    left: 5px;
-}
-
